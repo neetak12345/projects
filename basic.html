@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript Basics</title>
+	<link rel="stylesheet" href="style.css">
+<script >
+  //udf
+  //window,document-js objects,
+  // alert confirm print prompt open close - methods
+  function dispMsg(){
+  	window.alert('Welcome to Js Class')
+  }
+  function confirmAction(){
+  	var a=window.confirm('Continue ?')
+  	if(a)
+  		window.location='file:///G:/nwebdesign/cityproject/index.html';
+  	else{
+  		window.alert('ok Thanks 4 Visit')
+  	}
+  }
+  function enterName(){
+  	var k=window.prompt('Enter Your Name')
+  	    window.alert('Hello'+k)
+  }
+  function printDoc(){
+  	window.print();
+  }
+  function openDoc(){
+  	window.open('https://github.com/')
+  }
+</script>
+
+</head>
+<body>
+<main>
+	<button onclick="dispMsg()">Alert</button>
+	<button onclick="confirmAction()">Confirm</button>
+	<button onclick="enterName()">Prompt</button>
+	<button onclick="printDoc()">Print</button>
+	<button onclick="openDoc()">Open</button>
+</main>
+</body>
+</html>
