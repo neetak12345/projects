@@ -25,3 +25,17 @@ button:hover{background: var(--dark);}
 #image{width:100%; height: 500px;filter:grayscale(40%) blur(4px) brightness(0.7) contrast(80%) sepia(33%) opacity(100%)}
 input[type="range"]{padding: 10px; margin-bottom: 10px; width:90%}
 #fimage{width:80%; height: 350px; display: block; margin:auto;}
+@media only screen and (max-width:1200px){
+    .row{flex-direction: column;}
+    nav{flex-direction: column;}
+    nav ul{flex-basis:100%;text-align:center;margin:0px;padding:0px;}
+    nav h1{flex-basis:100%;text-align: center;}
+    nav li{display:inline-block;padding-right:2px;font-size:10pt;}
+    #gallery img{height:300px;}
+    #places img{height:250px;}
+    #food img{height:150px;}
+    #about h1{text-align:center;}
+    p{text-align: justify;font-size:12pt;}
+    li{font-size:12pt}
+}
+
